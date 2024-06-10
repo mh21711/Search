@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="Advanced.css" />
+  </head>
+  <body>
+    <div class="links">
+      <h1 style="margin: 0; font-size: 40px">
+        <span style="color: blue">G</span><span style="color: red">o</span
+        ><span style="color: yellow">o</span><span style="color: blue">g</span
+        ><span style="color: green">l</span><span style="color: red">e</span>
+      </h1>
+      <a href="index.html">Google Search</a>
+    </div>
+    <h2>Advanced Search</h2>
+    <div class="hr"></div>
+    <form action="https://google.com/search" name="f">
+      <p>Find Pages With...</p>
+      <div class="field">
+        <label for="field1">all these words:</label>
+        <input type="text" class="textinput" id="field1" value="" name="as_q" />
+      </div>
+      <br />
+      <div class="field">
+        <label for="field2">This exact word or phrase: </label>
+        <input
+          type="text"
+          class="textinput"
+          id="field2"
+          value=""
+          name="as_epq"
+        />
+      </div>
+      <br />
+      <div class="field">
+        <label for="field3">Any of this words: </label>
+        <input
+          type="text"
+          class="textinput"
+          id="field3"
+          value=""
+          name="as_oq"
+        />
+      </div>
+      <br />
+      <div class="field">
+        <label for="field4">none of these words: </label>
+        <input
+          type="text"
+          class="textinput"
+          id="field4"
+          value=""
+          name="as_eq"
+        />
+      </div>
+      <br />
+      <input type="submit" value="Advanced Search" />
+    </form>
+  </body>
+</html>
